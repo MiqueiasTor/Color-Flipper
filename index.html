@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RanDOM Color</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <div id="notification">
+                <p>Selecione uma das opções na barra</p>
+            </div>
+            <h1>Color Flipper</h1>
+            <nav id="first_menu">
+                <ul type="none">
+
+                    <li class="animation_underline">
+                        <div>Simple</div>
+                    </li>
+
+                    <li class="animation_underline">
+                        <div>Hex</div>
+                    </li>
+
+                    <li class="animation_underline">
+                        <div>Animation</div>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <input type="checkbox" name="" id="menu_check">
+            <label for="menu_check" id="button_menu">
+                <div class="container">
+                    <span>|</span>
+                    <span>|</span>
+                    <span>|</span>
+                </div>
+            </label>
+
+            <nav id="second_menu">
+                <div class="container">
+                    <ul type="none">
+                        <li class="animation_underline">Simple</li>
+                        <li class="animation_underline">Hex</li>
+                        <li class="animation_underline">Animation</li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div><h2>Background Color: <span id="result">#ffffff</span></h2></div>
+            <button>Click me</button>
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
